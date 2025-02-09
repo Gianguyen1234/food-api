@@ -8,7 +8,6 @@ const foods = [
   { id: 2, name: 'Sushi', type: 'Japanese' },
   { id: 3, name: 'Burger', type: 'American' },
 ];
-
 // Middleware to parse JSON
 app.use(express.json());
 
